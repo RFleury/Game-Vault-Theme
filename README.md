@@ -5,7 +5,7 @@ Theme designed by RFleury
 Version 3.1b
 06/03/2018
 
-Originally based on "Simple" by Nils Bonenberger and Tutorial from Matt Kennedy, you can view it on:
+Originally based on "Simple" by Nils Bonenberger and from this Tutorial:
 https://github.com/RetroPie/RetroPie-Setup/wiki/Creating-Your-Own-EmulationStation-Theme
 
 ======================================
