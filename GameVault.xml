@@ -1,0 +1,151 @@
+<!--
+Theme:					Game Vault Theme
+Version:				3.1b
+Author:					Roberto Fleury (Oberst_Fleury)
+License:				Creative Commons CC-BY-NC-SA
+Originally based on:	"Simple" by Nils Bonenberger
+-->
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<pos>0.152 0.345</pos>
+				<maxSize>0.268 0.338</maxSize>
+				<origin>0.5 0.5</origin>			
+				<delay>2.0</delay>
+				<default></default>
+				<showSnapshotNoVideo>false</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+		</view>
+
+	</feature>
+
+	<feature supported="carousel">
+
+		<view name="system">
+
+			<carousel name="systemcarousel">
+				<pos>0 0</pos>
+				<color>00000000</color>
+				<maxLogoCount>1</maxLogoCount>
+			</carousel>
+
+			<text name="systemInfo">
+				<fontPath>./art/BebasNeue.otf</fontPath>
+				<alignment>right</alignment>
+				<backgroundColor>00000000</backgroundColor>
+				<color>FFD900</color>
+				<pos>0.005 0.939</pos>
+				<size>0.980 0.050</size>
+				<fontSize>0.033</fontSize>
+			</text>
+
+		</view>
+
+	</feature>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>ffffff88</textColor>
+			<iconColor>ffffff88</iconColor>
+			<fontPath>./art/BebasNeue.otf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+			<color>A9A9A9</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/BebasNeue.otf</fontPath>
+			<fontSize>0.024</fontSize>
+			<size>0.12 0.04</size>
+		</text>
+
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite">
+			<color>A9A9A9</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/BebasNeue.otf</fontPath>
+			<fontSize>0.024</fontSize>
+			<size>0.12 0.04</size>
+		</text>
+
+		<text name="md_description">
+			<color>A9A9A9</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/BebasNeue.otf</fontPath>
+			<fontSize>0.024</fontSize>
+		</text>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>A9A9A9</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/BebasNeue.otf</fontPath>
+			<fontSize>0.024</fontSize>
+			<size>0 0.04</size>
+		</datetime>
+
+		<image name="header" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.16</size>
+			<path>./art/header_b.png</path>
+		</image>
+
+		<image name="footer" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.060</size>
+			<path>./art/footer_b.png</path>
+		</image>
+
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/mid.png</path>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>A9A9A9</selectorColor>
+			<selectorImagePath>./art/icon.png</selectorImagePath>
+			<selectedColor>bb1212</selectedColor>
+			<selectorHeight>.05</selectorHeight>
+			<primaryColor>A9A9A9</primaryColor>
+			<secondaryColor>eac428</secondaryColor>
+			<fontPath>./art/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<pos>0.610 0.22</pos>
+			<size>0.359 0.68</size>
+			<fontSize>0.025</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1</lineSpacing>
+			<horizontalMargin>0.03</horizontalMargin>
+		</textlist>
+
+		<helpsystem name="help">
+			<textColor>ffffff88</textColor>
+			<iconColor>ffffff88</iconColor>
+			<fontPath>./art/BebasNeue.otf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>		
+		
+	</view>
+
+</theme>

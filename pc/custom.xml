@@ -1,0 +1,22 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		<text name="info1" extra="true">
+			<text>Manufacturer: IBM</text>
+			<pos>0.38 0.72</pos>
+		</text>
+		<text name="info2" extra="true">
+			<text>Year of Release : 1981</text>
+			<pos>0.38 0.74</pos>
+		</text>
+		<text name="info3" extra="true">
+			<text>IBM Personal Computer, commonly known as the IBM PC.</text>
+			<pos>0.38 0.76</pos>
+			<size>0.40 0.20</size>
+			<lineSpacing>1.1</lineSpacing>
+		</text>
+	</view>
+
+</theme>
