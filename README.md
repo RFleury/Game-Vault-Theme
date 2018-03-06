@@ -2,7 +2,9 @@
 EmulationStation Theme for Windows with high quality images.
 
 Theme designed by RFleury
-Version 3.1b
+
+Version 1.0
+
 06/03/2018
 
 Originally based on "Simple" by Nils Bonenberger and from this Tutorial:
