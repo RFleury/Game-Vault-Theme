@@ -148,12 +148,12 @@
 			<pos>0.426 0.24</pos>
 			<color>333333</color>
 		</datetime>
-		
+
 		<rating name="md_rating">
 			<pos>0.425 0.216</pos>
 			<size>0.025 0.025</size>
-			<filledPath>./../art/star_filled_spacing.svg</filledPath>
-			<unfilledPath>./../art/star_hollow_3_spacing.svg</unfilledPath>
+			<filledPath>./../art/star_filled_spacing_grey.svg</filledPath>
+			<unfilledPath>./../art/star_hollow_2_spacing_grey.svg</unfilledPath>
 		</rating>
 
 		<text name="md_description">

@@ -148,7 +148,7 @@
 			<pos>0.426 0.24</pos>
 			<color>333333</color>
 		</datetime>
-		
+
 		<rating name="md_rating">
 			<pos>0.425 0.216</pos>
 			<size>0.025 0.025</size>
@@ -161,6 +161,13 @@
 			<pos>0.025 0.545</pos>
 			<color>333333</color>
 		</text>
+
+		<textlist name="gamelist">
+			<!--<selectorImagePath>./art/iconscd.png</selectorImagePath>-->
+			<selectedColor>bb1212</selectedColor>
+			<primaryColor>333333</primaryColor>
+			<secondaryColor>eac428</secondaryColor>
+		</textlist>
 
 	</view>
 
